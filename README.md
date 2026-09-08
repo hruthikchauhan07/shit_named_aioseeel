@@ -1,6 +1,6 @@
-# IOCL Cylinder Counting System
+#  Cylinder Counting System
 
-Real-time vehicle, license-plate, and LPG-cylinder monitoring for the IOCL loading area. The system reads six RTSP camera streams, identifies entry and exit vehicles, sends plate crops to an OCR service, counts cylinders from top and side views, and stores the resulting record and evidence images in MongoDB.
+Real-time vehicle, license-plate, and LPG-cylinder monitoring for the  loading area. The system reads six RTSP camera streams, identifies entry and exit vehicles, sends plate crops to an OCR service, counts cylinders from top and side views, and stores the resulting record and evidence images in MongoDB.
 
 ## What It Does
 
@@ -113,7 +113,7 @@ Stop it with `Ctrl+C` or a `SIGTERM`. The application creates its output directo
 
 ## Data and Evidence
 
-Each completed job is stored in MongoDB database `IOCL`, collection `iocl_datas`. Important fields include:
+Each completed job is stored in MongoDB database ``, collection `_datas`. Important fields include:
 
 - `vehicleNumber`, `type` (`entry` or `exit`), and generated `code`
 - `cylinderCount` and `cylinderCountColor` by cylinder size/color
